@@ -1,7 +1,7 @@
 #include "boto.h"
 
 
-Sprite boto("./data/GUI/Btn_Circle_Close_1_Normal.png");
+Sprite botoX("./data/GUI/Btn_Circle_Close_1_Normal.png");
 
 void boto::settype(bool type) {
 	m_type = type;
@@ -13,12 +13,12 @@ void boto::setPosInicial(int x, int y) {
 }
 
 void boto::drawBoto() {
-    boto.draw(m_posButton_X, m_posButton_Y);
+    botoX.draw(m_posButton_X, m_posButton_Y);
 }
 
 {
-    if (mousePosX > posButton_X && mousePosX < posButton_X + 90 &&
-        mousePosY > posButton_Y && mousePosY < posButton_Y + 90 &&
+    if (mousePosX > m_posButton_X && mousePosX < m_posButton_X + m_size_X &&
+        mousePosY > m_posButton_Y && mousePosY < m_posButton_Y + m_size_Y &&
         moousePressed)
     {
         m_active = !m_active;

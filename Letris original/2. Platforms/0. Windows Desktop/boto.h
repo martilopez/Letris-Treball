@@ -5,7 +5,9 @@ class boto
 {
 public:
 	void settype(bool type);
-	
+	void setPosInicial(int x, int y);
+
+	void drawBoto();
 private:
 	bool m_active;
 	bool m_type;

@@ -17,12 +17,23 @@ void joc()
 
     //------------------------------------
     //-----IntroducciÑ a la pröctica -----
-    //
-    //  TODO:   AquÕ heu de crear els sprites/fonts i
-    //          totes les variables necessöries per
-    //          treballar en el bucle principal de
-    //          sota (do...while).
-    //
+    Sprite boto_tancar_off("./data/GUI/Btn_Circle_Close_1_Normal.png");
+    Sprite boto_tancar_on("./data/GUI/Btn_Circle_Close_3_Pressed.png");
+    Sprite boto_pause("./data/GUI/Btn_Circle_Pause_1_Normal.png");
+    Sprite boto_play("./data/GUI/Btn_Circle_Play_1_Normal.png");
+    Sprite boto_ranking("./data/GUI/Btn_Circle_Ranking1_1_Normal.png");
+    Sprite boto_off("./data/GUI/Button_Normal.png");
+    Sprite boto_on("./data/GUI/Button_Pressed.png");
+    Sprite boto_capsa_off("./data/GUI/Checkbox_Disabled.png");
+    Sprite boto_capsa_on("./data/GUI/Checkbox_Enabled.png");
+    Sprite fons_main("./data/GUI/background_main.png");
+    Sprite fons_play("./data/GUI/background_play.png");
+    Sprite fons_menu("./data/GUI/MainMenu_BG.png");
+    Sprite fons_go("./data/GUI/GameOver.png");
+    Sprite boto_musica_off("./data/GUI/Music_Off.png");
+    Sprite boto_musica_on("./data/GUI/Music_On.png");
+    Sprite barra_temps("./data//GUI/Time_Bar.png");
+
     //------------------------------------
     
     //-----TODO 1

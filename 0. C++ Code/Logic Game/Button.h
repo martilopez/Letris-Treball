@@ -19,7 +19,7 @@ public:
 	} ButtonState;
 
 	typedef enum {
-		NORMAL = 0,
+		NONRADIO = 0,
 		RADIO,
 	} ButtonType;
 
